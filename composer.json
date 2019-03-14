@@ -1,0 +1,23 @@
+{
+    "name": "statamic/twitter",
+    "type": "statamic-addon",
+    "autoload": {
+        "psr-4": {
+            "Statamic\\Twitter\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Twitter",
+            "description": "A Twitter fieldtype for Statamic 3"
+        },
+        "laravel": {
+            "providers": [
+                "Statamic\\Twitter\\ServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "thujohn/twitter": "^2.2"
+    }
+}
