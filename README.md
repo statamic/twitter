@@ -2,6 +2,8 @@
 
 > A fieldtype for Statamic v3
 
+![](capture.gif)
+
 ## Adding API Keys
 
 This addon uses the [Jonathan Thuau's Twitter package](https://github.com/thujohn/twitter) under the hood. You will need to [create a Twitter app](https://apps.twitter.com/) and hook your API keys.
